@@ -1,1 +1,2 @@
-
+To run the feed-forward, navigate to the backend folder using cd backend,
+install the necessary dependencies with npm install, and start the server using npm start. Then open index.html in default browser.

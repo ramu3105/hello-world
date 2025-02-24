@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FeedForward - Update Donation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Register Donation</a>
+    <a href="view.html">View Donations</a>
+    <a href="update.html">Update Donation</a>
+    <a href="rewards.html">View Rewards</a>
+  </nav>
+
+  <div class="container">
+    <h1>Update Food Donation</h1>
+    <p>"Update donation details for accurate tracking."</p>
+    <form id="updateForm">
+      <input type="text" id="donationId" placeholder="Enter Donation ID" required>
+      <input type="text" id="donorName" placeholder="Donor Name">
+      <input type="text" id="foodType" placeholder="Food Type">
+      <input type="number" id="quantity" placeholder="Quantity (in servings)">
+      <input type="text" id="contact" placeholder="Contact">
+      <input type="number" id="expiryTime" placeholder="Expiry Time (in hours)">
+      <button type="submit">Update Donation</button>
+    </form>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

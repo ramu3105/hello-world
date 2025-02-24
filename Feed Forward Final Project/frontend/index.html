@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FeedForward - Register Donation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Register Donation</a>
+    <a href="view.html">View Donations</a>
+    <a href="rewards.html">View Rewards</a>
+  </nav>
+
+  <div class="container">
+    <h1>Register Food Donation</h1>
+    <p>"One meal donated can bring a smile to someone's face."</p>
+    <form id="donationForm">
+      <input type="text" id="donorName" placeholder="Donor Name" required>
+      <input type="text" id="foodType" placeholder="Food Type" required>
+      <input type="number" id="quantity" placeholder="Quantity (in servings)" required>
+      <input type="text" id="contact" placeholder="Contact" required>
+      <input type="number" id="expiryTime" placeholder="Enter approximate expiry (in hours)" required>
+      <button type="submit">Donate Now</button>
+    </form>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
